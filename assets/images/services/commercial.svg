@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8A838"/>
+      <stop offset="100%" stop-color="#D4962E"/>
+    </linearGradient>
+    <linearGradient id="facade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2B5EA7"/>
+      <stop offset="100%" stop-color="#1A3A5C"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- Ground -->
+  <rect y="420" width="800" height="80" fill="#1A3A5C" opacity="0.7"/>
+  <!-- Building -->
+  <rect x="180" y="80" width="440" height="340" fill="url(#facade)" opacity="0.9"/>
+  <!-- Windows -->
+  <g fill="#E8A838" opacity="0.85">
+    <rect x="220" y="120" width="50" height="60" rx="3"/>
+    <rect x="300" y="120" width="50" height="60" rx="3"/>
+    <rect x="380" y="120" width="50" height="60" rx="3"/>
+    <rect x="460" y="120" width="50" height="60" rx="3"/>
+    <rect x="220" y="210" width="50" height="60" rx="3"/>
+    <rect x="300" y="210" width="50" height="60" rx="3"/>
+    <rect x="380" y="210" width="50" height="60" rx="3"/>
+    <rect x="460" y="210" width="50" height="60" rx="3"/>
+    <rect x="220" y="300" width="50" height="60" rx="3"/>
+    <rect x="300" y="300" width="50" height="60" rx="3"/>
+    <rect x="380" y="300" width="50" height="60" rx="3"/>
+    <rect x="460" y="300" width="50" height="60" rx="3"/>
+  </g>
+  <!-- Signboard -->
+  <rect x="250" y="370" width="300" height="30" rx="4" fill="#1A3A5C" opacity="0.8"/>
+  <text x="400" y="390" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700" fill="#E8A838" text-anchor="middle">SY Painting</text>
+  <!-- Painter -->
+  <rect x="560" y="280" width="12" height="140" fill="#D4D4D4"/>
+  <rect x="545" y="270" width="42" height="12" fill="#C0C0C0"/>
+  <rect x="545" y="400" width="42" height="12" fill="#C0C0C0"/>
+  <circle cx="600" cy="230" r="22" fill="#F2D9B1"/>
+  <rect x="582" y="205" width="36" height="30" fill="#FFFFFF"/>
+  <rect x="582" y="235" width="36" height="70" fill="#FFFFFF"/>
+  <rect x="578" y="295" width="44" height="12" fill="#FFFFFF"/>
+  <rect x="540" y="235" width="44" height="6" fill="#8B8B8B"/>
+  <rect x="580" y="232" width="8" height="60" fill="#8B8B8B"/>
+  <rect x="545" y="228" width="24" height="18" rx="3" fill="#2B5EA7"/>
+  <!-- Brand tag -->
+  <rect x="40" y="40" width="130" height="36" rx="18" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="105" y="63" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Commercial</text>
+</svg>

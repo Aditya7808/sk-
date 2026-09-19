@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="tex-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8A838"/>
+      <stop offset="100%" stop-color="#D4962E"/>
+    </linearGradient>
+    <linearGradient id="tex-wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2B5EA7"/>
+      <stop offset="50%" stop-color="#1A3A5C"/>
+      <stop offset="100%" stop-color="#2B5EA7"/>
+    </linearGradient>
+    <pattern id="stipple" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="2" fill="#FFFFFF" opacity="0.25"/>
+      <circle cx="14" cy="14" r="1.5" fill="#FFFFFF" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#tex-bg)"/>
+  <!-- Feature wall -->
+  <rect x="180" y="80" width="440" height="340" fill="url(#tex-wall)"/>
+  <rect x="180" y="80" width="440" height="340" fill="url(#stipple)"/>
+  <!-- Decorative arch pattern -->
+  <path d="M240 320 Q300 200 360 320" fill="none" stroke="#E8A838" stroke-width="4" opacity="0.5"/>
+  <path d="M380 320 Q440 200 500 320" fill="none" stroke="#E8A838" stroke-width="4" opacity="0.5"/>
+  <path d="M300 320 Q340 250 380 320" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.4"/>
+  <!-- Geometric stencil shapes -->
+  <rect x="220" y="140" width="60" height="60" fill="#E8A838" opacity="0.35"/>
+  <circle cx="500" cy="160" r="30" fill="#E8A838" opacity="0.35"/>
+  <polygon points="560,120 620,180 560,180" fill="#E8A838" opacity="0.35"/>
+  <!-- Painter -->
+  <rect x="300" y="260" width="12" height="160" fill="#D4D4D4"/>
+  <rect x="285" y="250" width="42" height="12" fill="#C0C0C0"/>
+  <rect x="285" y="400" width="42" height="12" fill="#C0C0C0"/>
+  <circle cx="315" cy="200" r="20" fill="#F2D9B1"/>
+  <rect x="297" y="175" width="36" height="30" fill="#FFFFFF"/>
+  <rect x="297" y="205" width="36" height="70" fill="#FFFFFF"/>
+  <rect x="293" y="270" width="44" height="12" fill="#FFFFFF"/>
+  <rect x="260" y="200" width="40" height="6" fill="#8B8B8B"/>
+  <rect x="310" y="196" width="8" height="50" fill="#8B8B8B"/>
+  <rect x="270" y="192" width="20" height="16" rx="3" fill="#2B5EA7"/>
+  <!-- Brand tag -->
+  <rect x="40" y="40" width="150" height="36" rx="18" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="115" y="63" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Texture &amp; Design</text>
+</svg>

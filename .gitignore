@@ -1,0 +1,13 @@
+# Extracted/temp images (large files)
+assets/images/extracted_pictures/
+assets/images/extracted_pictures/**
+
+# Temp folders
+assets/images/temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
